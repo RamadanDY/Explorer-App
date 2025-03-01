@@ -4,7 +4,7 @@ import React from "react";
 function Greet() {
   return (
     <View>
-      <Text>Greet</Text>
+      <Text>Greet me well</Text>
     </View>
   );
 }
