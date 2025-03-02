@@ -3,6 +3,7 @@ import React from "react";
 import Greet from "../components/Greet";
 import ComponentA from "../components/ComponentA";
 import ButtonComponet from "../components/ButtonComponet";
+import ImagesComponent from "../components/ImagesComponent";
 
 function Index() {
   return (
@@ -10,6 +11,7 @@ function Index() {
       <Greet />
       <ComponentA />
       <ButtonComponet />
+      <ImagesComponent />
     </View>
   );
 }

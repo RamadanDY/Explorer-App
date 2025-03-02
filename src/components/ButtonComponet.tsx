@@ -1,20 +1,19 @@
-import { View, Text, Button } from "react-native";
+import { View, Text, Button, Pressable } from "react-native";
 import React from "react";
 
 export default function ButtonComponet() {
   return (
+    // Types of onPress
     <View>
-      {/* how to use buttons ||| we can also disable the btn by using  the disabled keyword */}
       <Text>lets explore Buttons</Text>
-      <Button title="press me " color="#736466" />
-      <Button
-        title="press me"
-        color="pink"
+
+      <Pressable
         onPress={() => {
-          console.warn("pressed");
-          alert("u pressed me");
+          console.log("pressed");
         }}
-      ></Button>
+      >
+        <Text>Press Me</Text>
+      </Pressable>
     </View>
   );
 }
