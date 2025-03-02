@@ -4,7 +4,8 @@ import React from "react";
 export default function ComponentA() {
   return (
     <View>
-      <Text>ComponentA</Text>
+      <Text>CponentA</Text>
+      <Text>what ever i wanna write</Text>
     </View>
   );
 }
