@@ -5,15 +5,7 @@ export default function ButtonComponet() {
   return (
     // Types of onPress
     <View>
-      <Text>lets explore Buttons</Text>
-
-      <Pressable
-        onPress={() => {
-          console.log("pressed");
-        }}
-      >
-        <Text>Press Me</Text>
-      </Pressable>
+      <Button title="Press Me"></Button>
     </View>
   );
 }

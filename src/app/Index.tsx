@@ -10,8 +10,8 @@ function Index() {
     <View>
       <Greet />
       <ComponentA />
-      <ButtonComponet />
       <ImagesComponent />
+      <ButtonComponet />
     </View>
   );
 }
