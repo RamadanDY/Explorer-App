@@ -1,17 +1,10 @@
 import { View, Text } from "react-native";
 import React from "react";
-import Greet from "../components/Greet";
-import ComponentA from "../components/ComponentA";
-import ButtonComponet from "../components/ButtonComponet";
-import ImagesComponent from "../components/ImagesComponent";
-
+import ListData from "../components/ListData";
 function Index() {
   return (
     <View>
-      <Greet />
-      <ComponentA />
-      <ImagesComponent />
-      <ButtonComponet />
+      <ListData />
     </View>
   );
 }
