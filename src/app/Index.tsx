@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 import React from "react";
-import ListData from "../components/ListData";
+import ArrayOfObjects from "../components/ArrayOfObjects";
 function Index() {
   return (
     <View>
-      <ListData />
+      <ArrayOfObjects />
     </View>
   );
 }
