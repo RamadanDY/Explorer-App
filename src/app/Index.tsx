@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 import React from "react";
-import ArrayOfObjects from "../components/ArrayOfObjects";
+import HugeComponents from "../components/HugeComponent";
 function Index() {
   return (
     <View>
-      <ArrayOfObjects />
+      <HugeComponents />
     </View>
   );
 }
