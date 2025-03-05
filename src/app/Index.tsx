@@ -1,14 +1,14 @@
+import CondiRendering from "../components/CondiRendering";
 import { View, Text } from "react-native";
 import React from "react";
-import ChildComponents from "../components/ChildComponents";
-import ParentComponents from "../components/ParentComponents";
-function Index() {
+
+const Index = () => {
   return (
     <View>
-      <ChildComponents />
-      <ParentComponents />
+      <Text>Index</Text>
+      <CondiRendering />
     </View>
   );
-}
+};
 
 export default Index;
