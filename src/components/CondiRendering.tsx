@@ -1,27 +1,16 @@
-import { View, Text } from "react-native";
+import { View, Text, Button } from "react-native";
 import React from "react";
-
-const ValidPassword = () => {
-  return <Text>Valid Password</Text>;
-};
-
-const InvalidPassword = () => {
-  return <Text>Invalid Password</Text>;
-};
-
-const Password = ({ isValid }: any) => {
-  if (isValid) {
-    return <ValidPassword />;
-  } else {
-    return <InvalidPassword />;
-  }
-};
+import { useState } from "react";
 
 const CondiRendering = () => {
+  const [counter, setcounter] = useState(0);
   return (
     <View>
-      <Text>CondiRendering</Text>
-      <Password isValid={true} />
+      <Text>counter: {counter}</Text>
+      <Button
+        title="Increment"
+        onPress={() => setcounter(counter - 1)}
+      ></Button>
     </View>
   );
 };
